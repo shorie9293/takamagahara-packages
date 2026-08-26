@@ -1,0 +1,12 @@
+name: takamagahara_core
+description: 高天原全現世共通の純粋Dartユーティリティ基盤（Flutter非依存）
+version: 0.1.0
+repository: https://github.com/horie-shunta/takamagahara
+publish_to: none
+
+environment:
+  sdk: ^3.6.2
+
+dev_dependencies:
+  test: ^1.25.0
+  lints: ^5.0.0

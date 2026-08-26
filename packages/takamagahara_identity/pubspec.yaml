@@ -1,0 +1,23 @@
+name: takamagahara_identity
+description: 高天原ユニバーサルID体系 — 全現世横断の共通アイデンティティ永続化基盤
+version: 0.1.0
+repository: https://github.com/horie-shunta/takamagahara
+publish_to: none
+
+environment:
+  sdk: ^3.6.2
+  flutter: '>=3.27.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  takamagahara_core:
+    path: ../takamagahara_core
+  hive: ^2.2.3
+  shared_preferences: ^2.2.2
+  uuid: ^4.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^5.0.0

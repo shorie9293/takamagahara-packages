@@ -1,0 +1,13 @@
+# Dart/Flutter build artifacts
+**/build/
+**/.dart_tool/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.idea/
+
+# Lockfiles (packages resolve at CI pub get time)
+**/pubspec.lock
+
+# OS
+.DS_Store

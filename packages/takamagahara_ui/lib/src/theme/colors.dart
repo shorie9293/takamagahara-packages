@@ -59,13 +59,13 @@ class TakamagaharaColors {
   /// ダークテーマ本文：薄金（高コントラスト）
   static const Color textPrimaryDark = Color(0xFFF0C860);
 
-  /// ダークテーマ補足文：薄金60%
+  /// ダークテーマ補足文：薄金75%（WCAG AA 準拠。カード面 sumiLight 上で 5.5:1）
   static Color get textSecondaryDark =>
-      const Color(0xFFF0C860).withValues(alpha: 0.60);
+      const Color(0xFFF0C860).withValues(alpha: 0.75);
 
-  /// ダークテーマ薄文：薄金35%
+  /// ダークテーマ薄文：薄金65%（WCAG AA 準拠。最暗のダイアログ面上でも 4.5:1 超）
   static Color get textTertiaryDark =>
-      const Color(0xFFF0C860).withValues(alpha: 0.35);
+      const Color(0xFFF0C860).withValues(alpha: 0.65);
 
   // ━━━ ダークテーマ サーフェストークン ━━━
 
@@ -83,11 +83,11 @@ class TakamagaharaColors {
   /// ライトテーマ本文：深紫（高コントラスト）
   static const Color textPrimaryLight = Color(0xFF1A1040);
 
-  /// ライトテーマ補足文：深紫65%
+  /// ライトテーマ補足文：深紫75%（WCAG AA 準拠。和紙面上で 7.4:1）
   static Color get textSecondaryLight =>
-      const Color(0xFF1A1040).withValues(alpha: 0.65);
+      const Color(0xFF1A1040).withValues(alpha: 0.75);
 
-  /// ライトテーマ薄文：深紫35%
+  /// ライトテーマ薄文：深紫65%（WCAG AA 準拠。和紙面上で 5.3:1）
   static Color get textTertiaryLight =>
-      const Color(0xFF1A1040).withValues(alpha: 0.35);
+      const Color(0xFF1A1040).withValues(alpha: 0.65);
 }
